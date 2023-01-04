@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{0pt}\scshape\raggedright\Large
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\normalsize#3} & \textit{\normalsize #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\normalsize#1} & \textit{\normalsize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \normalsize#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{\Huge \scshape Ankush Sarkar} \\ \vspace{1pt}
+  \small +1 (905) 921 5769 $|$ \href{https://www.ankushsarkar.dev/}{\underline{ankushsarkar.dev}} $|$
+  \href{https://github.com/AnkushSarkar10}{\underline{GitHub}} $|$
+  \href{https://www.linkedin.com/in/ankush-sarkar-a55a5b213/}{\underline{LinkedIn}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{McMaster University}{Hamilton, ON}
+{Computer Science}{Sept. 2021 -- May 2025}
+
+% Relevant cources
+\vspace{7pt}
+\textbf{Relevant Courses}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item  \vspace{-1pt}  \textbf{COMPSCI 1MD3} \textit{Introduction To Programming}  \textbf{(A+)}
+  \item  \vspace{-1pt}  \textbf{COMPSCI 1JC3} \textit{Introduction To Computational Thinking}  \textbf{(A+)}
+  \item  \vspace{-1pt}  \textbf{COMPSCI 1XC3} \textit{Development Basics}  \textbf{(A+)}
+\end{itemize}
+\vspace{-10pt}
+\resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  {\item{
+        \textbf{Languages}{: JavaScript/Typescript, Python, C, HTML/CSS, Java, Haskell} \\
+        \textbf{Frameworks/Libraries}{: Vue, Nuxt JS, React, Node.js, Flask, Three JS, TailwindCSS} \\
+        }}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Audio Visualizer}{}
+{}{}
+\vspace{-15pt}
+\begin{itemize}
+  \item A 3D audio visualizer that changes the dimensions of a 3D sphere based on the amplitude of the song playing
+  \item Built using Three JS, Nuxt JS, and Tailwind CSS
+  \item Hosted on Netlify
+  \item \href{https://audio-visualizer-threejs.netlify.app/}{\textbf{\underline{App}}} $|$ \href{https://github.com/AnkushSarkar10/audio_vis_threejs}{\textbf{\underline{Code}}}
+\end{itemize}
+
+\resumeSubheading
+{Multiplayer Tic Tac Toe}{}
+{}{}
+\vspace{-15pt}
+\begin{itemize}
+  \item An online multiplayer Tic Tac Toe game
+  \item Built using Vue JS and Flask-SocketIO
+  \item Frontend Vue app hosted on Firebase, backend Flask app hosted on Render
+  \item \href{https://vue-flask-tic-tac-toe.web.app/}{\textbf{\underline{App}}} $|$ \href{https://github.com/AnkushSarkar10/vue-flask-tic-tac-toe}{\textbf{\underline{Code}}}
+\end{itemize}
+
+\resumeSubheading
+{Sorting Algorithm Visualizer}{}
+{}{}
+\vspace{-15pt}
+\begin{itemize}
+  \item A web app for visualizing various sorting algorithms
+  \item Built using Nuxt JS, Tailwind CSS, and DaisyUI
+  \item Hosted on Netlify
+  \item \href{https://sorting-algo-visualiser.netlify.app/}{\textbf{\underline{App}}} $|$ \href{https://github.com/AnkushSarkar10/sort-algo-vis}{\textbf{\underline{Code}}}
+\end{itemize}
+
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{Web Developer}{Sep. 2022 -- Present}
+{GDSC McMaster University}{Hamilton, ON}
+\\ \vspace{10pt}
+\begin{itemize}
+  \item Building and maintaining and the storefront for GDSC merchandise
+  \item Maintaining the GDSC McMaster website
+  \item Work with multiple technologies such as \textbf{React}, \textbf{Firebase}, and \textbf{Tailwind CSS}.
+\end{itemize}
+
+\resumeSubheading
+{Second Year Representative}{Sep. 2022 -- Present}
+{Computer Science Society McMaster University}{Hamilton, ON}
+\\ \vspace{10pt}
+\begin{itemize}
+  \item Maintaining contact with professors and cohort
+  \item Answering questions from lower-year students
+  \item Promoting CSS events
+\end{itemize}
+% \resumeItemListStart
+% \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+% \resumeItem{Developed a game in Java to test the generated dungeons}
+% \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+% \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+% \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+% \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+% \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
