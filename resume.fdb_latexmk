@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1672078744 "/home/ankushsarkar/code/personal/resume.tex" "/home/ankushsarkar/code/personal/resume.pdf" "resume" 1672078745
+["pdflatex"] 1672836735 "/home/ankushsarkar/code/resume/resume.tex" "/home/ankushsarkar/code/resume/resume.pdf" "resume" 1672836736
   "/etc/texmf/web2c/texmf.cnf" 1645955233 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ankushsarkar/code/personal/resume.aux" 1672078745 1142 52e46a8e3c773b7a9c6d35c147e69347 ""
-  "/home/ankushsarkar/code/personal/resume.tex" 1672078743 7589 6cadaa363df48382b0d18ed1b555f570 ""
+  "/home/ankushsarkar/code/resume/resume.aux" 1672836736 1142 52e46a8e3c773b7a9c6d35c147e69347 ""
+  "/home/ankushsarkar/code/resume/resume.tex" 1672836735 7589 2bf8f1261f77772d1658e2668bef408a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -83,13 +83,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1645955274 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1645955304 8257083 c8a04370383dd0956495ff431a3d4710 ""
-  "resume.aux" 1672078745 1142 52e46a8e3c773b7a9c6d35c147e69347 "pdflatex"
-  "resume.out" 1672078745 183 865ef58c9654dbc359a20ccb5a1a3aed "pdflatex"
-  "resume.tex" 1672078743 7589 6cadaa363df48382b0d18ed1b555f570 ""
+  "resume.aux" 1672836736 1142 52e46a8e3c773b7a9c6d35c147e69347 "pdflatex"
+  "resume.out" 1672836736 183 865ef58c9654dbc359a20ccb5a1a3aed "pdflatex"
+  "resume.tex" 1672836735 7589 2bf8f1261f77772d1658e2668bef408a ""
   (generated)
-  "/home/ankushsarkar/code/personal/resume.log"
+  "resume.aux"
+  "resume.out"
+  "/home/ankushsarkar/code/resume/resume.pdf"
   "resume.pdf"
   "resume.log"
-  "resume.aux"
-  "/home/ankushsarkar/code/personal/resume.pdf"
-  "resume.out"
+  "/home/ankushsarkar/code/resume/resume.log"

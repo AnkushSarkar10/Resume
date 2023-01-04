@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  26 DEC 2022 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  4 JAN 2023 07:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ankushsarkar/code/personal/resume.tex
-(/home/ankushsarkar/code/personal/resume.tex
+**/home/ankushsarkar/code/resume/resume.tex
+(/home/ankushsarkar/code/resume/resume.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -222,7 +222,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box49
-) (/home/ankushsarkar/code/personal/resume.aux)
+) (/home/ankushsarkar/code/resume/resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -269,7 +269,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 106.
 LaTeX Info: Redefining \pageref on input line 106.
 LaTeX Info: Redefining \nameref on input line 106.
- (/home/ankushsarkar/code/personal/resume.out) (/home/ankushsarkar/code/personal/resume.out)
+ (/home/ankushsarkar/code/resume/resume.out) (/home/ankushsarkar/code/resume/resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -302,7 +302,7 @@ This may cause the page layout to be inconsistent, however.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
- (/home/ankushsarkar/code/personal/resume.aux)
+ (/home/ankushsarkar/code/resume/resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `resume.out' has not changed.
@@ -315,14 +315,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
  6856 strings out of 481239
- 103062 string characters out of 5920377
+ 103036 string characters out of 5920377
  387456 words of memory out of 5000000
  22002 multiletter control sequences out of 15000+600000
  536254 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,45p,285b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,45p,283b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/ankushsarkar/code/personal/resume.pdf (1 page, 121061 bytes).
+Output written on /home/ankushsarkar/code/resume/resume.pdf (1 page, 121362 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
