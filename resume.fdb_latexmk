@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1673477478 "/home/ankushsarkar/code/resume/resume.tex" "/home/ankushsarkar/code/resume/resume.pdf" "resume" 1673477478
+["pdflatex"] 1673477478 "/home/ankushsarkar/code/resume/resume.tex" "/home/ankushsarkar/code/resume/resume.pdf" "resume" 1673477637
   "/etc/texmf/web2c/texmf.cnf" 1645955233 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ankushsarkar/code/resume/resume.aux" 1673477478 1142 52e46a8e3c773b7a9c6d35c147e69347 ""
   "/home/ankushsarkar/code/resume/resume.tex" 1673477477 7690 b52b105398161ab34420f68a20b90b58 ""
@@ -89,7 +89,7 @@
   (generated)
   "resume.aux"
   "/home/ankushsarkar/code/resume/resume.pdf"
-  "resume.log"
-  "resume.pdf"
-  "/home/ankushsarkar/code/resume/resume.log"
   "resume.out"
+  "resume.pdf"
+  "resume.log"
+  "/home/ankushsarkar/code/resume/resume.log"
