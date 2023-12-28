@@ -54,8 +54,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{0pt}\scshape\raggedright\Large
-}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+  \vspace{0pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -75,6 +75,13 @@
       \textit{\normalsize#3} & \textit{\normalsize #4} \\
     \end{tabular*}\vspace{-7pt}
 }
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-1pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small#4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
@@ -138,7 +145,7 @@
 \vspace{-15pt}
 \begin{itemize}
   \item Developed a full-stack application that enables users to create, store, and visualize family trees with ease.
-  \item Utilized technologies such as \textbf{Nuxt.js}, \textbf{Supabase}, \textbf{d3-org-chart}, and \textbf{Tailwind CSS} to deliver a seamless and visually appealing user experience.
+  \item Utilized technologies such as \textbf{Nuxt.js}, \textbf{Supabase}, \textbf{d3-org-chart}, and \textbf{Tailwind CSS} to deliver an amazing user experience.
 \end{itemize}
 \vspace{-5pt}
 
@@ -202,8 +209,8 @@
 {Computer Science Society McMaster University}{Hamilton, ON}
 \begin{itemize}
   \item Successfully built and currently maintain the Computer Science Society website, providing an online hub for information and resources, resulting in a \textbf{80\% increase in website traffic}.
-  \item Proficiently worked with cutting-edge technologies such as \textbf{Astro}, \textbf{React}, and \textbf{Tailwind CSS} to ensure a responsive and visually appealing website, enhancing the user experience and engagement.
-  \item Collaborated with a team of developers to brainstorm, plan, and implement new features, fostering a collaborative and innovative work environment.
+  \item Utilized cutting-edge technologies such as \textbf{Astro}, \textbf{React}, and \textbf{Tailwind CSS} for a responsive and visually appealing website.
+  \item Collaborated with a development team to implement new features, fostering innovation and teamwork.
 \end{itemize}
 
 \resumeSubheading
@@ -221,7 +228,7 @@
 {McMaster University Music Production Society}{Hamilton, ON}
 \begin{itemize}
 \item Spearheaded the development and maintenance of the McMaster University Music Production Society website.
-\item Collaborated with a team of designers and developers.
+\item Collaborated with designers and developers, enhancing teamwork and achieving impactful outcomes.
 \end{itemize}
 
 % \resumeSubheading
@@ -253,7 +260,7 @@
 
 % Relevant cources
 \vspace{7pt}
-\textbf{GPA} - 3.6 \\
+% \textbf{GPA} - 3.6 \\
 \textbf{Deans Honours List} - Present\\ 
 % \vspace{4pt}
 \textbf{Relevant Courses}
@@ -268,4 +275,8 @@
 \vspace{-10pt}
 \resumeSubHeadingListEnd
 
+\section{Other Achievements}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item  \vspace{-1pt}  Won an award at \textbf{DeltahacksHacks IX} for \textit{Most Innovative Use of the Verbwire API}, for our project, \textbf{DiGiDegree}.
+\end{itemize}
 \end{document}

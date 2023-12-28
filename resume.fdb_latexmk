@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1703216724 "/home/ankush/code/Resume/resume.tex" "resume.pdf" "resume" 1703216725
+["pdflatex"] 1703745114 "/home/ankush/code/Resume/resume.tex" "resume.pdf" "resume" 1703745114
   "/etc/texmf/web2c/texmf.cnf" 1694629184 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ankush/code/Resume/resume.tex" 1703216724 10869 6b85fc6a9f469b2be80517e65a7321e7 ""
+  "/home/ankush/code/Resume/resume.tex" 1703745114 11267 0d69b966b6d472bc2621d29120bf4380 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -86,9 +86,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1694629216 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1694629244 2800273 edaf61c54030430596439bb0e31805ab ""
-  "resume.aux" 1703216725 1197 122db817aac44aea21b85e0b3ccf2d2e "pdflatex"
-  "resume.out" 1703216725 390 91a6f1aec2c9c5d55321e46b2f632110 "pdflatex"
-  "resume.tex" 1703216724 10869 6b85fc6a9f469b2be80517e65a7321e7 ""
+  "resume.aux" 1703745114 1312 b41616103e0b96981b2d035b7d6d1eec "pdflatex"
+  "resume.out" 1703745114 526 8faf3bf86f0ea456bcb5a272a706ebe1 "pdflatex"
+  "resume.tex" 1703745114 11267 0d69b966b6d472bc2621d29120bf4380 ""
   (generated)
   "resume.aux"
   "resume.log"
